@@ -76,73 +76,133 @@ This section shows the simulation of the voltage and current sensing circuits us
 💰 Energy & cost estimation
 
 🔌 Hardware Setup
+
 ESP32 Development Board
+
 Voltage Sensor Module
+
 Current Sensor (ACS712 / equivalent)
+
 Resistive Load
+
 Inductive Load
+
 Nonlinear Load
 
 💻 Software Stack
+
 Category	Tools
+
 Language	Python, Embedded C
+
 ML	Scikit-learn, NumPy, Pandas
+
 Visualization	Matplotlib, SciPy
+
 Communication	PySerial
+
 IoT	Blynk Cloud, Telegram Bot API
 
 📊 Load Classification
+
 🔴 Resistive Load
+
 PF ≈ 1
+
 Linear waveform
+
 No phase shift
+
 🟡 Inductive Load
+
 PF ≈ 0.7
+
 Phase shift present
+
 Elliptical V-I curve
+
 🔵 Nonlinear Load
+
 High THD
+
 Distorted waveform
+
 Harmonic presence
 
 🤖 Machine Learning Pipeline
+
 Data Acquisition
+
 Filtering & Preprocessing
+
 Feature Extraction
+
 Model Training
+
 Load Prediction
+
 Visualization + Reporting
 
 📡 IoT Integration
+
 ☁️ Blynk Dashboard
+
 Displays:
+
 Voltage
+
 Current
+
 Power
+
 Load Type
+
 Energy Consumption
+
 📲 Telegram Bot
+
 Sends:
+
 Real-time load detection
+
 Power quality metrics
+
 Alerts & summaries
+
 📁 Project Structure
+
 SMART-LOAD-ID/
+
 │
+
 ├── ESP32_Code/
+
 ├── Python_Code/
+
 ├── Dataset/
+
 ├── Model/
+
 ├── Images/
+
 ├── Output/
+
 └── README.md
+
 🚀 Future Improvements
+
 Deep Learning-based NILM
+
 Web dashboard (React / Flask)
+
 Edge AI on ESP32
+
 Smart home automation integration
+
 Real-time cloud database
+
 ## 👥 Team Members
+
 ### 👩‍💻 Hoda Mahmoud
 🔗 LinkedIn: [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/hoda-mahmoud-b3327736b?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 ---

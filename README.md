@@ -19,16 +19,20 @@ ESP32 Sensors → Signal Acquisition → Python Processing → Feature Extractio
 
 ![resistive_load_waveform](<img width="925" height="755" alt="Screenshot 2026-05-01 103222" src="https://github.com/user-attachments/assets/0faf882f-fae0-4992-81d6-8504e4dc8eb1" />
 )
+
 ![inductive_load_waveform](<img width="1234" height="742" alt="Screenshot 2026-05-01 104142" src="https://github.com/user-attachments/assets/37842d62-096f-4197-b325-26537bdb58db" />
 )
+
 ![nonlinear_load_waveform](<img width="1121" height="784" alt="Screenshot 2026-05-01 112159" src="https://github.com/user-attachments/assets/771264b9-b2a1-4033-876e-2a744c615bd8" />
 )
 
 📊 V-I Trajectory
 ![resistive_V-I Curve](<img width="672" height="458" alt="Screenshot 2026-04-30 204251" src="https://github.com/user-attachments/assets/18906b13-8ed9-409f-b49c-80d907bab427" />
 )
+
 ![inductive_V-I Curve](<img width="677" height="455" alt="Screenshot 2026-05-01 105022" src="https://github.com/user-attachments/assets/1489d754-89b2-45e7-86d8-53dab7359bab" />
 )
+
 ![nonlinear_V-I Curve](<img width="677" height="452" alt="Screenshot 2026-05-01 113131" src="https://github.com/user-attachments/assets/c3571b7b-20c8-494e-aa69-9fc7125ca48e" />
 )
 
@@ -52,14 +56,23 @@ This section shows the simulation of the voltage and current sensing circuits us
 <img width="720" height="1525" alt="Blynk" src="https://github.com/user-attachments/assets/856c2191-1306-44d3-90e4-8e03e5291758" />
 
 ⚙️ Features
+
 ⚡ Real-time voltage & current acquisition
+
 📡 ESP32 ↔ Python communication
+
 🔊 Digital signal filtering
+
 📊 Power analysis (RMS, PF, THD)
+
 🧠 Machine Learning classification
+
 📈 V-I trajectory visualization
+
 ☁️ IoT cloud monitoring (Blynk)
+
 📲 Telegram smart alerts
+
 💰 Energy & cost estimation
 
 🔌 Hardware Setup
